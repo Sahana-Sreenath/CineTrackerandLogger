@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+      <% include partials/head.ejs %>
+  <body>
+    <% include partials/header.ejs %>
+    <div id="index"> </div>
+    <div class="container-fluid">
+      
+        <% if (req.user) { %>
+        <div id="welcome" class = "col-md-7 mx-auto text-center" style = "margin-top:7%;padding:3%;font-size:1.4em;color:#d3d3d3">
+          Welcome <%= req.user.username %>. Click on movies you've watched, then hit the <i class="text-info fa fa-eye"></i>icon
+          to log the movie to your diary and the  <i class = "text-danger fa fa-heart"></i>icon if it's your all time favorite!
+        </div>
+      <% } %>
+      
+       <% if (!req.user) { %>
+      <div id="heading">
+        <h1 class="text-center">
+          Track, organize and review your movies!
+        </h1>
+      </div>
+       <% } %>
+      
+      <div id="nowPlaying" style="margin-right:5%" class="col-xs-6 col-sm-12 col-md-12">
+       <div id ="movies" class = "text-center">
+           <% nowPlaying.forEach(obj=>{ %> 
+            <a href="/movies/<%=obj.id%>"><img id="poster" src = <%= obj.poster %> > </a>
+            <% }); %>
+      </div>
+      </div>
+      
+      <div class="row" id = "uses">
+        <div class="jumbotron jumbotron-fluid col-md-4">
+         <h3 class= "fa fa-film fa-2x"> Deciding what to watch next?</h3>
+              <p class="lead">You're in the right place. Get personalized recommendations on new movies based on your favorites.</p>
+      </div>
+      <div class="jumbotron jumbotron-fluid col-md-4">
+         <h3 class= "fa fa-book fa-2x"> Start a movie diary today!</h3>
+              <p class="lead">Add and review movies as you watch them. See what others are watching.</p>
+      </div>
+      </div>
+
+      <% include partials/recent-reviews.ejs %>
+
+    </div>
+  </body>
+          <% include partials/footer.ejs %>
+</html>
+
+
+
+
+ 

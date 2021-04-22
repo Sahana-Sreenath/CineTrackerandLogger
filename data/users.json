@@ -1,0 +1,74 @@
+[
+  {
+    "username": "wes",
+    "movies_watched":320,
+    "review_count":19,
+    "password": "password",
+    "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "Sammy_123",
+     "movies_watched":320,
+    "review_count":19,
+    "password": "Sammy_123",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "john",
+    "movies_watched":32,
+    "review_count":32,
+    "password": "john",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "mark",
+    "movies_watched":20,
+    "review_count":10,
+    "password": "mark",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "lisa",
+    "movies_watched":320,
+    "review_count":29,
+    "password": "lisa",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "taylor",
+    "movies_watched":62,
+    "review_count":19,
+    "password": "taylor",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "marco",
+    "movies_watched":30,
+    "review_count":1,
+    "password": "marco",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  },
+  {
+    "username": "anon",
+    "movies_watched":32,
+    "review_count":0,
+    "password": "anon",
+     "movies_watched_titles":[{"movie_title":"Asdfas1","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas2","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas3","timestamp":"23-04-2012","favorite":false},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":true},{"movie_title":"Asdfas","timestamp":"23-04-2012","favorite":false}],
+     "favorites":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"],
+     "recently_watched":["https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg","https://image.tmdb.org/t/p/w92//mMWV5MXn2pkDnnI4vWpy3dRWdNC.jpg"]
+  }
+]
