@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+      <% include partials/head.ejs %>
+  <body style="margin-top:2%;">
+    <% include partials/header.ejs %>
+    <div class="container-fluid col-md-7 pull-left" style="margin-bottom:5%">
+      
+       <div id="heading" style="margin-left:7%">
+        <h1 class="ml-auto">
+          Our users
+        </h1>  
+      </div>
+      
+      <table class="table text-white table-dark table-hover text-center">
+        <thead>
+          <tr>
+            <th scope="col">Username</th>
+            <th scope="col">Movies watched</th>
+            <th scope="col">Reviews</th>
+          </tr>
+        </thead>
+         <tbody>
+           <% users.forEach(obj=>{ %> 
+          <tr>
+            <td><a href="/users/<%=obj.username%>" class="text-white" style="text-decoration:none;"><%=obj.username%></a></td>
+            <td class="text-success fa fa-eye"> <a href="/users/<%=obj.username%>" style="text-decoration:none;" class="text-success">&nbsp;<%=obj.movies_watched%></a></td>
+            <td class="text-danger"><a href="/users/<%=obj.username%>"class="text-danger" style="text-decoration:none;"><i class="fa fa-comment"></i><%=obj.review_count%></a></td>
+          </tr>
+            <% }); %>
+        </tbody>
+      </table>
+      
+      
+     </div>
+    <div class = "col-md-3 side position-sticky pull-right" style="margin-top:6%;">
+           <% include partials/sidepanel.ejs %>
+          </div>
+       
+
+  </body>
+    <% include partials/footer.ejs %>
+</html>
