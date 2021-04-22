@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 //app.js
+>>>>>>> main
 require('dotenv').config();
 var express = require('express');
 var movies = require('./routers/movieRouter');
@@ -34,7 +37,10 @@ app.use("/api",api)
 app.use("/",home);
 app.use("/movies",movies);
 
+<<<<<<< HEAD
+=======
 //authenticatelogin
+>>>>>>> main
 function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated())
     return next();

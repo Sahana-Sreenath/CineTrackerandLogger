@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+# Log and Track Your Fav Movies
+
+A Node.js+Express.js project for logging movies and creating personlized dairies
+
+
+=======
 # MovieTracker
 
 A Node.js+Express.js app for tracking/logging movies
@@ -54,3 +61,4 @@ Run all tests with ```npm test```
 
 ## License:
 MIT
+>>>>>>> main
