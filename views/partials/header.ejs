@@ -1,0 +1,18 @@
+<div class="container-fluid" id="header">
+ 			<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+  			<a class="navbar-brand text-white" href="/" >MovieTracker</a> 
+ 				<a	class="nav-item nav-link text-white ml-auto" href="/users" >Users</a>
+        <a class="nav-item nav-link text-white" href="/movies" >Movies</a>
+        <% if (req.user) { %>
+      	<a	class="nav-item nav-link text-white" href="/users/<%=req.user.username%>/all">My Diary</a>
+        <a	class="nav-item nav-link text-white" href="/users/<%=req.user.username%>">My Page</a>
+        <a	class="nav-item nav-link text-white" href="/users/<%=req.user.username%>/reviews/all">My Reviews</a>
+        <a	class="nav-item nav-link text-white" href="/logout">Logout</a>
+           <% } %>
+        <% if (!req.user) { %>
+ 				<a	class="nav-item nav-link text-white" href="/login" >Login</a>
+        <a	class="nav-item nav-link text-white" href="/signUp">SignUp</a>
+        <a	class="nav-item nav-link text-white" href="/About">About</a>
+           <% } %>
+ 			</nav>
+</div>
