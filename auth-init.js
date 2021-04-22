@@ -3,7 +3,7 @@ var LocalStrategy = require('passport-local').Strategy;
 //var users = require('./data/users.json')
 var db = require('./data/db.js');
 var bcrypt = require('bcrypt');
-
+//change of function
 async function getUser (username) {
   let dbObj = db.getdb;
   return await dbObj.collection("users").findOne({"username":username});
@@ -18,7 +18,7 @@ passport.use(new LocalStrategy({passReqToCallback: true},
         else return done(null, false)})
      }
 ));
-
+//password serializer
 passport.serializeUser(function(user, done) {
   done(null, user);
 });
