@@ -1,11 +1,11 @@
 # REST API Application
 # Log and Track Your Fav Movies
 
-## A Node.js+Express.js+MongoDB project for logging movies and creating personlized dairies\
-## Uses Fulltext Elastic Search to provide relevant movies based on user search\
-## Mark your favorite movies
-## Post comments on movies watched
-## View history of your activities in your personalized page
+A Node.js+Express.js+MongoDB project for logging movies and creating personlized dairies\
+Uses Fulltext Elastic Search to provide relevant movies based on user search\
+Mark your favorite movies
+Post comments on movies watched
+View history of your activities in your personalized page
 
 # MovieTracker
 
