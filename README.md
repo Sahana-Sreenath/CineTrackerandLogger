@@ -1,10 +1,12 @@
-<<<<<<< HEAD
+# REST API Application
 # Log and Track Your Fav Movies
 
-A Node.js+Express.js project for logging movies and creating personlized dairies
+A Node.js+Express.js+MongoDB project for logging movies and creating personlized dairies\
+Uses Fulltext Elastic Search to provide relevant movies based on user search\
+Mark your favorite movies
+Post comments on movies watched
+View history of your activities in your personalized page
 
-
-=======
 # MovieTracker
 
 A Node.js+Express.js app for tracking/logging movies
@@ -15,16 +17,12 @@ A Node.js+Express.js app for tracking/logging movies
 
 It might take a while to load the first time
 
-Use the following username and password to login:
-
-Username: username\
-Password: password
-
 ## Project pics
 
-<img width="1279" alt="screen shot 2018-08-23 at 7 41 29 am" src="https://user-images.githubusercontent.com/36819928/44754926-f8094f00-aaf1-11e8-8737-c0af601aff9b.png">
-<img width="1278" alt="screen shot 2018-08-27 at 1 18 39 pm" src="https://user-images.githubusercontent.com/36819928/44754928-fa6ba900-aaf1-11e8-9c8b-702353deb8ab.png">
-<img width="1277" alt="screen shot 2018-08-27 at 1 16 08 pm" src="https://user-images.githubusercontent.com/36819928/44754932-fcce0300-aaf1-11e8-9bca-7ba623addd41.png">
+![image](https://user-images.githubusercontent.com/57196174/116821822-a635e400-ab38-11eb-85fc-f949567a4521.png)
+![image](https://user-images.githubusercontent.com/57196174/116821833-b5b52d00-ab38-11eb-81dd-80c6259d986a.png)
+![image](https://user-images.githubusercontent.com/57196174/116821840-c1085880-ab38-11eb-8daa-e8560c3d9acf.png)
+![image](https://user-images.githubusercontent.com/57196174/116822254-13e30f80-ab3b-11eb-8bd6-45e88f5b3920.png)
 
 ## Config
 Movie data is from [TMDb](https://www.themoviedb.org). Obtain an API key from TMDb by following the instructions [here](https://developers.themoviedb.org/3/getting-started/introduction).
@@ -59,6 +57,13 @@ Run all tests with ```npm test```
 ```PUT /users/:username/review/:id```  --- Edit a movie review\
 ```DELETE /users/:username/review/:id```---  Delete a movie review
 
+```GET /movies/:movieTitle/search``` --- Get all movies that match the search\
+```GET /movies/:movieTitle/sort/all``` --- Do not bulkinput if name missing in ConfigES\
+```PUT /movies/:movieTitle/sort/:id``` --- assign a data map score and sort\
+```POST /movies/:movies/search/all``` --- Post all movies matching search by map score\
+```POST /movies/:movies/search``` --- Post null if movie list matches null\
+
+
 ## License:
 MIT
->>>>>>> main
+
