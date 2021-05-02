@@ -17,9 +17,11 @@ It might take a while to load the first time
 
 ## Project pics
 
-<img width="1279" alt="screen shot 2018-08-23 at 7 41 29 am" src="https://user-images.githubusercontent.com/36819928/44754926-f8094f00-aaf1-11e8-8737-c0af601aff9b.png">
-<img width="1278" alt="screen shot 2018-08-27 at 1 18 39 pm" src="https://user-images.githubusercontent.com/36819928/44754928-fa6ba900-aaf1-11e8-9c8b-702353deb8ab.png">
-<img width="1277" alt="screen shot 2018-08-27 at 1 16 08 pm" src="https://user-images.githubusercontent.com/36819928/44754932-fcce0300-aaf1-11e8-9bca-7ba623addd41.png">
+![image](https://user-images.githubusercontent.com/57196174/116821822-a635e400-ab38-11eb-85fc-f949567a4521.png)
+![image](https://user-images.githubusercontent.com/57196174/116821833-b5b52d00-ab38-11eb-81dd-80c6259d986a.png)
+![image](https://user-images.githubusercontent.com/57196174/116821840-c1085880-ab38-11eb-8daa-e8560c3d9acf.png)
+
+
 
 ## Config
 Movie data is from [TMDb](https://www.themoviedb.org). Obtain an API key from TMDb by following the instructions [here](https://developers.themoviedb.org/3/getting-started/introduction).
@@ -54,12 +56,12 @@ Run all tests with ```npm test```
 ```PUT /users/:username/review/:id```  --- Edit a movie review\
 ```DELETE /users/:username/review/:id```---  Delete a movie review
 
-```GET /movies/:movieTitle/search``` --- Get all movies that match the search
-```GET /movies/:movieTitle/sort/all``` --- Do not bulkinput if name missing in ConfigES
-```PUT /movies/:movieTitle/sort/:id``` --- assign a data map score and sort
-```POST /movies/:movies/search/all``` --- Post all movies matching search by map score
-```POST /movies/:movies/search``` --- Post null if movie list matches null
-![image](https://user-images.githubusercontent.com/57196174/116821749-548d5980-ab38-11eb-84e6-d90976889863.png)
+```GET /movies/:movieTitle/search``` --- Get all movies that match the search\
+```GET /movies/:movieTitle/sort/all``` --- Do not bulkinput if name missing in ConfigES\
+```PUT /movies/:movieTitle/sort/:id``` --- assign a data map score and sort\
+```POST /movies/:movies/search/all``` --- Post all movies matching search by map score\
+```POST /movies/:movies/search``` --- Post null if movie list matches null\
+
 
 ## License:
 MIT
