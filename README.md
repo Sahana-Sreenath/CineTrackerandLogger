@@ -22,8 +22,7 @@ It might take a while to load the first time
 ![image](https://user-images.githubusercontent.com/57196174/116821822-a635e400-ab38-11eb-85fc-f949567a4521.png)
 ![image](https://user-images.githubusercontent.com/57196174/116821833-b5b52d00-ab38-11eb-81dd-80c6259d986a.png)
 ![image](https://user-images.githubusercontent.com/57196174/116821840-c1085880-ab38-11eb-8daa-e8560c3d9acf.png)
-
-
+![image](https://user-images.githubusercontent.com/57196174/116822254-13e30f80-ab3b-11eb-8bd6-45e88f5b3920.png)
 
 ## Config
 Movie data is from [TMDb](https://www.themoviedb.org). Obtain an API key from TMDb by following the instructions [here](https://developers.themoviedb.org/3/getting-started/introduction).
