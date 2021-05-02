@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# REST API Application
 # Log and Track Your Fav Movies
 
 A Node.js+Express.js project for logging movies and creating personlized dairies
@@ -14,11 +14,6 @@ A Node.js+Express.js app for tracking/logging movies
 [Live project website](https://movie-tracker-node.herokuapp.com)
 
 It might take a while to load the first time
-
-Use the following username and password to login:
-
-Username: username\
-Password: password
 
 ## Project pics
 
@@ -59,6 +54,13 @@ Run all tests with ```npm test```
 ```PUT /users/:username/review/:id```  --- Edit a movie review\
 ```DELETE /users/:username/review/:id```---  Delete a movie review
 
+```GET /movies/:movieTitle/search``` --- Get all movies that match the search
+```GET /movies/:movieTitle/sort/all``` --- Do not bulkinput if name missing in ConfigES
+```PUT /movies/:movieTitle/sort/:id``` --- assign a data map score and sort
+```POST /movies/:movies/search/all``` --- Post all movies matching search by map score
+```POST /movies/:movies/search``` --- Post null if movie list matches null
+![image](https://user-images.githubusercontent.com/57196174/116821749-548d5980-ab38-11eb-84e6-d90976889863.png)
+
 ## License:
 MIT
->>>>>>> main
+
